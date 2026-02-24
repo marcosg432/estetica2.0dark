@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumière Estética | O Padrão Mais Elevado da Estética Feminina</title>
+    <meta name="description" content="Clínica de estética feminina de alto padrão. Luxo, exclusividade e beleza intensa em um ambiente dark premium.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Dark Luxo -->
+    <header class="header" id="header">
+        <div class="header__glass"></div>
+        <nav class="header__nav container">
+            <a href="#" class="header__logo">
+                <svg class="header__logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 5L25 15H15L20 5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 20L20 35L28 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Lumière</span>
+            </a>
+            <ul class="header__menu">
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#numeros">Números</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+            </ul>
+            <a href="#contato" class="header__cta">Agendar Consulta</a>
+            <button class="header__burger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero__bg">
+            <img src="https://images.unsplash.com/photo-1598520106830-8c45c2035460?w=1920&q=80" alt="Estética feminina premium - mulher iluminada" class="hero__img">
+            <div class="hero__overlay"></div>
+            <div class="hero__grain"></div>
+        </div>
+        <div class="hero__content container">
+            <p class="hero__label">Estética de Alto Padrão</p>
+            <h1 class="hero__title">
+                O padrão mais elevado<br>
+                <em>da estética feminina.</em>
+            </h1>
+            <p class="hero__subtitle">
+                Onde luxo, mistério e beleza intensa se encontram em um espaço exclusivo, 
+                dedicado à sua transformação.
+            </p>
+            <div class="hero__buttons">
+                <a href="#contato" class="btn btn--rose">Descubra os Tratamentos</a>
+                <a href="#sobre" class="btn btn--gold">Conheça a Clínica</a>
+            </div>
+        </div>
+        <div class="hero__scroll">
+            <span>Explore</span>
+            <div class="hero__scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Nossos Números -->
+    <section class="numeros" id="numeros">
+        <div class="numeros__bg"></div>
+        <div class="container">
+            <h2 class="numeros__title">Nossos Números</h2>
+            <p class="numeros__subtitle">Resultados que falam por si</p>
+            <div class="numeros__grid">
+                <div class="numeros__card">
+                    <div class="numeros__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <span class="numeros__value" data-target="2500">0</span>
+                    <span class="numeros__suffix">+</span>
+                    <p class="numeros__label">Mulheres atendidas</p>
+                    <div class="numeros__line"></div>
+                </div>
+                <div class="numeros__card">
+                    <div class="numeros__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <span class="numeros__value" data-target="98">0</span>
+                    <span class="numeros__suffix">%</span>
+                    <p class="numeros__label">Satisfação</p>
+                    <div class="numeros__line"></div>
+                </div>
+                <div class="numeros__card">
+                    <div class="numeros__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2z"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <span class="numeros__value" data-target="120">0</span>
+                    <span class="numeros__suffix">+</span>
+                    <p class="numeros__label">Tratamentos exclusivos</p>
+                    <div class="numeros__line"></div>
+                </div>
+                <div class="numeros__card">
+                    <div class="numeros__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <span class="numeros__value" data-target="15">0</span>
+                    <span class="numeros__suffix">anos</span>
+                    <p class="numeros__label">De experiência</p>
+                    <div class="numeros__line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section class="servicos" id="servicos">
+        <div class="servicos__bg"></div>
+        <div class="container">
+            <h2 class="section__title">Nossos Serviços</h2>
+            <p class="section__subtitle">Tratamentos exclusivos para realçar sua beleza</p>
+            <div class="servicos__grid">
+                <article class="servicos__card" data-id="harmonizacao">
+                    <div class="servicos__img">
+                        <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&q=80" alt="Harmonização facial">
+                    </div>
+                    <div class="servicos__content">
+                        <h3>Harmonização Facial</h3>
+                        <p>Proporções equilibradas e naturais com técnicas de alta precisão.</p>
+                    </div>
+                    <div class="servicos__footer">
+                        <a href="https://wa.me/5511999999999" class="servicos__btn servicos__btn--agendar" target="_blank" rel="noopener">Agendar</a>
+                        <button type="button" class="servicos__btn servicos__btn--saiba" data-modal="harmonizacao">Saiba Mais</button>
+                    </div>
+                </article>
+                <article class="servicos__card" data-id="skinbooster">
+                    <div class="servicos__img">
+                        <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&q=80" alt="Skinbooster">
+                    </div>
+                    <div class="servicos__content">
+                        <h3>Skinbooster</h3>
+                        <p>Hidratação profunda e rejuvenescimento da pele com ácido hialurônico.</p>
+                    </div>
+                    <div class="servicos__footer">
+                        <a href="https://wa.me/5511999999999" class="servicos__btn servicos__btn--agendar" target="_blank" rel="noopener">Agendar</a>
+                        <button type="button" class="servicos__btn servicos__btn--saiba" data-modal="skinbooster">Saiba Mais</button>
+                    </div>
+                </article>
+                <article class="servicos__card" data-id="preenchimento-labial">
+                    <div class="servicos__img">
+                        <img src="https://images.unsplash.com/photo-1598520106830-8c45c2035460?w=800&q=80" alt="Preenchimento labial">
+                    </div>
+                    <div class="servicos__content">
+                        <h3>Preenchimento Labial</h3>
+                        <p>Volume e definição com resultados naturais e duradouros.</p>
+                    </div>
+                    <div class="servicos__footer">
+                        <a href="https://wa.me/5511999999999" class="servicos__btn servicos__btn--agendar" target="_blank" rel="noopener">Agendar</a>
+                        <button type="button" class="servicos__btn servicos__btn--saiba" data-modal="preenchimento-labial">Saiba Mais</button>
+                    </div>
+                </article>
+                <article class="servicos__card" data-id="botox">
+                    <div class="servicos__img">
+                        <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&q=80" alt="Botox">
+                    </div>
+                    <div class="servicos__content">
+                        <h3>Botox</h3>
+                        <p>Suavização de linhas de expressão com técnica refinada.</p>
+                    </div>
+                    <div class="servicos__footer">
+                        <a href="https://wa.me/5511999999999" class="servicos__btn servicos__btn--agendar" target="_blank" rel="noopener">Agendar</a>
+                        <button type="button" class="servicos__btn servicos__btn--saiba" data-modal="botox">Saiba Mais</button>
+                    </div>
+                </article>
+                <article class="servicos__card" data-id="limpeza-pele">
+                    <div class="servicos__img">
+                        <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&q=80" alt="Limpeza de pele">
+                    </div>
+                    <div class="servicos__content">
+                        <h3>Limpeza de Pele</h3>
+                        <p>Tratamento profundo para pele radiante e revitalizada.</p>
+                    </div>
+                    <div class="servicos__footer">
+                        <a href="https://wa.me/5511999999999" class="servicos__btn servicos__btn--agendar" target="_blank" rel="noopener">Agendar</a>
+                        <button type="button" class="servicos__btn servicos__btn--saiba" data-modal="limpeza-pele">Saiba Mais</button>
+                    </div>
+                </article>
+                <article class="servicos__card" data-id="microagulhamento">
+                    <div class="servicos__img">
+                        <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&q=80" alt="Microagulhamento">
+                    </div>
+                    <div class="servicos__content">
+                        <h3>Microagulhamento</h3>
+                        <p>Estimulação natural do colágeno para textura perfeita.</p>
+                    </div>
+                    <div class="servicos__footer">
+                        <a href="https://wa.me/5511999999999" class="servicos__btn servicos__btn--agendar" target="_blank" rel="noopener">Agendar</a>
+                        <button type="button" class="servicos__btn servicos__btn--saiba" data-modal="microagulhamento">Saiba Mais</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre a Clínica -->
+    <section class="sobre" id="sobre">
+        <div class="container sobre__container">
+            <div class="sobre__img">
+                <img src="https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=1200&q=80" alt="Espaço da clínica Lumière">
+                <div class="sobre__img-frame"></div>
+            </div>
+            <div class="sobre__content">
+                <h2 class="section__title">Sobre a Clínica</h2>
+                <p class="sobre__text">
+                    A <strong>Lumière</strong> nasceu da paixão pela estética feminina em seu mais alto nível. 
+                    Em um ambiente dark e sofisticado, oferecemos tratamentos exclusivos que elevam 
+                    a beleza natural de cada mulher.
+                </p>
+                <p class="sobre__text">
+                    Nossa equipe é formada por especialistas apaixonados pela arte da estética, 
+                    utilizando as mais avançadas técnicas e produtos premium do mercado. 
+                    Cada detalhe foi pensado para proporcionar uma experiência única e transformadora.
+                </p>
+                <div class="sobre__features">
+                    <div class="sobre__feature">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <polyline points="22 4 12 14.01 9 11.01"/>
+                        </svg>
+                        <span>Ambiente exclusivo</span>
+                    </div>
+                    <div class="sobre__feature">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <polyline points="22 4 12 14.01 9 11.01"/>
+                        </svg>
+                        <span>Produtos premium</span>
+                    </div>
+                    <div class="sobre__feature">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <polyline points="22 4 12 14.01 9 11.01"/>
+                        </svg>
+                        <span>Atendimento personalizado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria -->
+    <section class="galeria" id="galeria">
+        <div class="container">
+            <h2 class="section__title">Galeria de Resultados</h2>
+            <p class="section__subtitle">Transformações reais, beleza autêntica</p>
+            <div class="galeria__grid">
+                <div class="galeria__item">
+                    <img src="https://images.unsplash.com/photo-1598520106830-8c45c2035460?w=600&q=80" alt="Resultado 1">
+                    <div class="galeria__overlay">
+                        <span>Harmonização Facial</span>
+                    </div>
+                </div>
+                <div class="galeria__item">
+                    <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=600&q=80" alt="Resultado 2">
+                    <div class="galeria__overlay">
+                        <span>Skinbooster</span>
+                    </div>
+                </div>
+                <div class="galeria__item">
+                    <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&q=80" alt="Resultado 3">
+                    <div class="galeria__overlay">
+                        <span>Preenchimento</span>
+                    </div>
+                </div>
+                <div class="galeria__item">
+                    <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=600&q=80" alt="Resultado 4">
+                    <div class="galeria__overlay">
+                        <span>Botox</span>
+                    </div>
+                </div>
+                <div class="galeria__item">
+                    <img src="https://images.unsplash.com/photo-1598520106830-8c45c2035460?w=600&q=80" alt="Resultado 5">
+                    <div class="galeria__overlay">
+                        <span>Limpeza de Pele</span>
+                    </div>
+                </div>
+                <div class="galeria__item">
+                    <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=600&q=80" alt="Resultado 6">
+                    <div class="galeria__overlay">
+                        <span>Microagulhamento</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="cta" id="contato">
+        <div class="cta__bg">
+            <img src="https://images.unsplash.com/photo-1598520106830-8c45c2035460?w=1920&q=80" alt="Close feminino iluminado">
+            <div class="cta__overlay"></div>
+            <div class="cta__texture"></div>
+        </div>
+        <div class="cta__content container">
+            <h2 class="cta__title">Eleve sua beleza ao nível mais exclusivo.</h2>
+            <p class="cta__subtitle">
+                Agende sua consulta e descubra como podemos transformar sua estética 
+                em uma experiência única e memorável.
+            </p>
+            <a href="#" class="btn btn--cta">Agendar Consulta Agora</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__line"></div>
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <a href="#" class="footer__logo">
+                        <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 5L25 15H15L20 5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 20L20 35L28 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        Lumière
+                    </a>
+                    <p>Estética feminina de alto padrão</p>
+                </div>
+                <div class="footer__links">
+                    <h4>Navegação</h4>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#galeria">Galeria</a>
+                    <a href="#contato">Contato</a>
+                </div>
+                <div class="footer__contact">
+                    <h4>Contato</h4>
+                    <p>contato@lumiereestetica.com.br</p>
+                    <p>(11) 99999-9999</p>
+                </div>
+                <div class="footer__social">
+                    <h4>Redes</h4>
+                    <a href="#" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="2" y="2" width="20" height="20" rx="5"/>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="WhatsApp">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>© 2025 Lumière Estética. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal Tratamento - Dark Luxury -->
+    <div class="modal-overlay" id="modalTratamento" aria-hidden="true">
+        <div class="modal-backdrop"></div>
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button type="button" class="modal__close" aria-label="Fechar modal">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6L6 18M6 6l12 12"/>
+                </svg>
+            </button>
+            <div class="modal__content">
+                <div class="modal__img-wrap">
+                    <img class="modal__img" src="" alt="">
+                </div>
+                <div class="modal__body">
+                    <h2 class="modal__title" id="modalTitle"></h2>
+                    <p class="modal__desc"></p>
+                    <ul class="modal__beneficios"></ul>
+                    <p class="modal__tempo"></p>
+                    <div class="modal__recomendacoes" style="display: none;"></div>
+                    <a href="https://wa.me/5511999999999" class="modal__cta" target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
