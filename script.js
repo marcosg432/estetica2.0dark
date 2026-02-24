@@ -20,94 +20,124 @@ document.addEventListener('DOMContentLoaded', () => {
  */
 const tratamentos = [
   {
-    id: 'harmonizacao',
+    id: 'harmonizacao-glutea',
+    titulo: 'Harmonização Glútea',
+    imagem: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=90',
+    descricao: 'Procedimento avançado para realçar projeção, contorno e firmeza dos glúteos através de bioestimuladores de colágeno. O resultado é natural, progressivo e com melhora visível da qualidade da pele.',
+    beneficios: [
+      'Aumento de volume natural',
+      'Bioestímulo de colágeno',
+      'Melhora da textura e firmeza',
+      'Levantamento natural',
+      'Contorno corporal mais definido'
+    ],
+    tempo: 'Pacote: Bioestimulador 20mL + 1 sessão de ultrassom microfocado',
+    recomendacoes: []
+  },
+  {
+    id: 'detox-corporal',
+    titulo: 'Detox Corporal',
+    imagem: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=90',
+    descricao: 'Protocolo intensivo de desintoxicação que combina técnicas manuais e tecnologias para eliminar líquidos, toxinas e reduzir medidas rapidamente.',
+    beneficios: [
+      'Redução de inchaço',
+      'Acelera o metabolismo',
+      'Elimina toxinas',
+      'Reduz medidas',
+      'Melhora a circulação'
+    ],
+    tempo: 'Pacote: 10 drenagens + 10 mantas + 5 enzimas detox + 10 lipos sem cortes',
+    recomendacoes: []
+  },
+  {
+    id: 'gordura-localizada',
+    titulo: 'Gordura Localizada',
+    imagem: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=90',
+    descricao: 'Tratamento completo para gordura resistente com tecnologias combinadas para definir cintura e abdômen.',
+    beneficios: [
+      'Reduz gordura localizada',
+      'Define abdômen',
+      'Melhora contorno corporal',
+      'Resultados progressivos'
+    ],
+    tempo: 'Protocolo Completo: 6 radiofrequências + 6 enzimas + 6 correntes russas + 6 modeladoras — Valor: 6x R$ 141,65',
+    recomendacoes: []
+  },
+  {
+    id: 'harmonizacao-facial',
     titulo: 'Harmonização Facial',
-    imagem: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&q=90',
-    descricao: 'A Harmonização Facial é um conjunto de procedimentos estéticos que visa equilibrar as proporções do rosto, realçando a beleza natural de cada paciente. Utilizamos técnicas avançadas e seguras, com ácido hialurônico de última geração, para criar resultados sutis, elegantes e extremamente naturais. O tratamento é personalizado conforme a análise facial e os objetivos de cada mulher, garantindo harmonia e simetria sem perder a identidade.',
-    beneficios: [
-      'Equilíbrio facial e proporções harmoniosas',
-      'Naturalidade nos traços preservada',
-      'Técnicas avançadas e seguras',
-      'Resultados duradouros e progressivos',
-      'Personalização total do protocolo'
-    ],
-    tempo: 'Duração média: 60 a 90 minutos',
-    recomendacoes: ['Evitar exposição solar intensa 48h antes', 'Não ingerir bebidas alcoólicas 24h antes']
-  },
-  {
-    id: 'skinbooster',
-    titulo: 'Skinbooster',
-    imagem: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&q=90',
-    descricao: 'O Skinbooster é um tratamento revolucionário de hidratação profunda com ácido hialurônico de baixo peso molecular. Aplicado em microgotas na camada superficial da pele, promove hidratação intensa de dentro para fora, melhorando a textura, o viço e a luminosidade. Ideal para peles desidratadas, opacas ou que buscam prevenção do envelhecimento com resultados naturais e duradouros.',
-    beneficios: [
-      'Hidratação intensa e profunda',
-      'Melhora significativa da textura da pele',
-      'Aumento do viço e luminosidade natural',
-      'Estimulação de colágeno',
-      'Efeito preenchedor leve e natural'
-    ],
-    tempo: 'Duração média: 40 a 50 minutos',
-    recomendacoes: ['Sessões em intervalo de 4 semanas', 'Evitar maquiagem nas primeiras 12h']
-  },
-  {
-    id: 'preenchimento-labial',
-    titulo: 'Preenchimento Labial',
     imagem: 'https://images.unsplash.com/photo-1598520106830-8c45c2035460?w=800&q=90',
-    descricao: 'O Preenchimento Labial com ácido hialurônico é um dos procedimentos mais procurados para realçar a beleza dos lábios. Oferecemos volume, definição e contorno com resultados naturais e elegantes. Utilizamos técnicas que respeitam a anatomia natural, criando lábios mais volumosos, definidos e simétricos, sem exageros. O ácido hialurônico também hidrata e estimula o colágeno local.',
+    descricao: 'Procedimentos personalizados para equilibrar os traços, valorizar a beleza natural e promover rejuvenescimento sem exageros.',
     beneficios: [
-      'Volume e definição naturais',
-      'Contorno labial refinado',
-      'Hidratação e estimulação de colágeno',
-      'Resultados imediatos e duradouros',
+      'Traços equilibrados',
+      'Efeito natural',
+      'Rejuvenescimento',
+      'Contorno facial refinado',
       'Correção de assimetrias'
     ],
-    tempo: 'Duração média: 45 a 60 minutos',
-    recomendacoes: ['Evitar anticoagulantes 7 dias antes', 'Não beijar ou fazer movimentos exagerados nas primeiras 24h']
+    tempo: 'Consulta personalizada para definição do protocolo',
+    recomendacoes: []
   },
   {
-    id: 'botox',
-    titulo: 'Botox',
-    imagem: 'https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&q=90',
-    descricao: 'A aplicação de Botox (Toxina Botulínica) é um dos procedimentos mais seguros e eficazes para suavizar linhas de expressão e prevenir o envelhecimento. Aplicamos a toxina com técnica refinada e precisão milimétrica, relaxando os músculos responsáveis pelas rugas da testa, entre as sobrancelhas e ao redor dos olhos. O resultado é um aspecto mais jovem, descansado e natural, sem perder a expressividade.',
-    beneficios: [
-      'Suavização de linhas de expressão',
-      'Prevenção do envelhecimento',
-      'Aspecto descansado e rejuvenescido',
-      'Técnica refinada e natural',
-      'Resultados em 3 a 7 dias'
-    ],
-    tempo: 'Duração média: 20 a 30 minutos',
-    recomendacoes: ['Manter-se em posição vertical 4h após', 'Evitar massagens na região por 24h']
-  },
-  {
-    id: 'limpeza-pele',
-    titulo: 'Limpeza de Pele',
-    imagem: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&q=90',
-    descricao: 'A Limpeza de Pele profissional é um tratamento fundamental para manter a saúde e a beleza da pele. Realizamos extração de cravos e impurezas, esfoliação suave e aplicação de máscaras adequadas ao seu tipo de pele. O resultado é uma pele mais limpa, radiante, revitalizada e preparada para absorver melhor os tratamentos subsequentes. Essencial para quem busca um visual impecável.',
-    beneficios: [
-      'Remoção profunda de impurezas',
-      'Pele radiante e revitalizada',
-      'Prevenção de acne e cravos',
-      'Melhor absorção de ativos',
-      'Relaxamento e bem-estar'
-    ],
-    tempo: 'Duração média: 60 minutos',
-    recomendacoes: ['Evitar sol nas 48h seguintes', 'Usar protetor solar diariamente']
-  },
-  {
-    id: 'microagulhamento',
-    titulo: 'Microagulhamento',
+    id: 'ultrassom-microfocado',
+    titulo: 'Ultrassom Microfocado',
     imagem: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&q=90',
-    descricao: 'O Microagulhamento é um procedimento que utiliza microagulhas para criar microcanais na pele, estimulando a produção natural de colágeno e elastina. Indicado para melhora de textura, cicatrizes de acne, estrias, poros dilatados e rejuvenescimento. Associamos o procedimento a ativos como vitamina C, ácido hialurônico ou peptídeos para potencializar os resultados. A pele fica mais firme, uniforme e luminosa.',
+    descricao: 'Lifting não cirúrgico que estimula o colágeno profundamente, promovendo firmeza e melhora estrutural do rosto.',
     beneficios: [
-      'Estimulação natural do colágeno',
-      'Textura da pele refinada',
-      'Redução de cicatrizes e estrias',
-      'Poros mais fechados',
-      'Rejuvenescimento progressivo'
+      'Firmeza imediata',
+      'Resultado progressivo',
+      'Estímulo profundo de colágeno',
+      'Efeito lifting sem cortes'
     ],
-    tempo: 'Duração média: 60 a 75 minutos',
-    recomendacoes: ['Sessões mensais para melhores resultados', 'Evitar maquiagem por 24h']
+    tempo: 'Full Face — Sessão personalizada',
+    recomendacoes: []
+  },
+  {
+    id: 'mesoterapia-capilar',
+    titulo: 'Mesoterapia Capilar',
+    imagem: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=90',
+    descricao: 'Tratamento injetável para fortalecer os fios, nutrir o couro cabeludo e reduzir queda de cabelo.',
+    beneficios: [
+      'Crescimento acelerado',
+      'Redução da queda',
+      'Nutrição dos fios',
+      'Aumento de densidade'
+    ],
+    tempo: 'Pacote: 10 sessões — R$ 1.299,90',
+    recomendacoes: []
+  },
+  {
+    id: 'drenagem-detox',
+    titulo: 'Drenagem & Detox',
+    imagem: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=90',
+    descricao: 'Protocolo de drenagem linfática completo para eliminar líquidos, reduzir inchaço e promover bem-estar imediato.',
+    beneficios: [
+      'Diminui retenção de líquidos',
+      'Melhora circulação',
+      'Sensação de leveza',
+      'Reduz medidas'
+    ],
+    tempo: 'Sessões individuais ou pacotes personalizados',
+    recomendacoes: []
+  },
+  {
+    id: 'terapias-corporais',
+    titulo: 'Terapias Corporais',
+    imagem: 'https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&q=90',
+    descricao: 'Conjunto completo de terapias corporais para saúde, relaxamento e estética. Inclui: Massagem terapêutica, Modeladora, Drenagem, Radiofrequência, Carbox, Manthus, Enzimas, Manta térmica e Ventosa.',
+    beneficios: [
+      'Massagem terapêutica',
+      'Modeladora',
+      'Drenagem',
+      'Radiofrequência',
+      'Carbox',
+      'Manthus',
+      'Enzimas',
+      'Manta térmica',
+      'Ventosa'
+    ],
+    tempo: 'Protocolos personalizados conforme necessidade',
+    recomendacoes: []
   }
 ];
 
