@@ -1,5 +1,5 @@
 /**
- * Lumière Estética - Dark Luxury Premium
+ * Estética Harmonik - Dark Luxury Premium
  * Animações, IntersectionObserver e interações
  * 
  * WhatsApp: Substitua 5511999999999 pelo número real (DDD + número, ex: 5511987654321)

@@ -1,7 +1,7 @@
 {
-  "name": "lumiere-estetica",
+  "name": "estetica-harmonik",
   "version": "1.0.0",
-  "description": "Site Lumière Estética - Dark Luxury Premium",
+  "description": "Site Estética Harmonik - Dark Luxury Premium",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

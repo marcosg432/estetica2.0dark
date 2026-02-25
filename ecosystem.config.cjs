@@ -1,11 +1,11 @@
 /**
- * Configuração PM2 - Lumière Estética
+ * Configuração PM2 - Estética Harmonik
  * Uso: pm2 start ecosystem.config.cjs
  */
 
 module.exports = {
   apps: [{
-    name: 'lumiere-estetica',
+    name: 'estetica-harmonik',
     script: 'server.js',
     instances: 1,
     exec_mode: 'fork',
