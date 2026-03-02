@@ -1,5 +1,5 @@
 /**
- * Estética Harmonik - Dark Luxury Premium
+ * Lumière Estética - Dark Luxury Premium
  * Animações, IntersectionObserver e interações
  * 
  * WhatsApp: Substitua 5511999999999 pelo número real (DDD + número, ex: 5511987654321)
@@ -22,7 +22,7 @@ const tratamentos = [
   {
     id: 'harmonizacao-glutea',
     titulo: 'Harmonização Glútea',
-    imagem: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=90',
+    imagem: 'assets/images/servicos/harmonizacao-glutea.jpg',
     descricao: 'Procedimento avançado para realçar projeção, contorno e firmeza dos glúteos através de bioestimuladores de colágeno. O resultado é natural, progressivo e com melhora visível da qualidade da pele.',
     beneficios: [
       'Aumento de volume natural',
@@ -37,7 +37,7 @@ const tratamentos = [
   {
     id: 'detox-corporal',
     titulo: 'Detox Corporal',
-    imagem: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=90',
+    imagem: 'assets/images/servicos/detox-corporal.jpg',
     descricao: 'Protocolo intensivo de desintoxicação que combina técnicas manuais e tecnologias para eliminar líquidos, toxinas e reduzir medidas rapidamente.',
     beneficios: [
       'Redução de inchaço',
@@ -52,7 +52,7 @@ const tratamentos = [
   {
     id: 'gordura-localizada',
     titulo: 'Gordura Localizada',
-    imagem: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=90',
+    imagem: 'assets/images/servicos/gordura-localizada.png',
     descricao: 'Tratamento completo para gordura resistente com tecnologias combinadas para definir cintura e abdômen.',
     beneficios: [
       'Reduz gordura localizada',
@@ -66,7 +66,7 @@ const tratamentos = [
   {
     id: 'harmonizacao-facial',
     titulo: 'Harmonização Facial',
-    imagem: 'https://images.unsplash.com/photo-1598520106830-8c45c2035460?w=800&q=90',
+    imagem: 'assets/images/servicos/harmonizacao-facial.png',
     descricao: 'Procedimentos personalizados para equilibrar os traços, valorizar a beleza natural e promover rejuvenescimento sem exageros.',
     beneficios: [
       'Traços equilibrados',
@@ -81,7 +81,7 @@ const tratamentos = [
   {
     id: 'ultrassom-microfocado',
     titulo: 'Ultrassom Microfocado',
-    imagem: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&q=90',
+    imagem: 'assets/images/servicos/ultrassom-microfocado.png',
     descricao: 'Lifting não cirúrgico que estimula o colágeno profundamente, promovendo firmeza e melhora estrutural do rosto.',
     beneficios: [
       'Firmeza imediata',
@@ -95,7 +95,7 @@ const tratamentos = [
   {
     id: 'mesoterapia-capilar',
     titulo: 'Mesoterapia Capilar',
-    imagem: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=90',
+    imagem: 'assets/images/servicos/mesoterapia-capilar.png',
     descricao: 'Tratamento injetável para fortalecer os fios, nutrir o couro cabeludo e reduzir queda de cabelo.',
     beneficios: [
       'Crescimento acelerado',
